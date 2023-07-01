@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+  
+#sq-one {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: #fff;
+    background-color: blue;
+    transition: 2s;
+}
+
+#sq-one:hover {
+    background-color: red;
+}
+
+.spin {
+    transform: rotate(1080deg);
+}
+
+.button {
+    margin: auto 50%;
+    padding: 1em 2em;
+    border: black solid 4px;
+    border-radius: 50%;
+    background-color: palegreen;
+    transition: font 2s ease-in-out;
+}
+
+.button:hover {
+    background-color: yellowgreen;
+    font-size: 3em;
+}
